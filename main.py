@@ -15,3 +15,4 @@ if dns_response and dns_response.haslayer(DNS):
         print(dns_response[DNS].an[i].rdata)
 else:
     print("Ingen DNS-svar modtaget.")
+
